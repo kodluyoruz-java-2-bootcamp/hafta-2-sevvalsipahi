@@ -39,22 +39,6 @@ private int memory;
     public double calculateprice()
     {
 
-        /*if(memory>8 && bits>128)
-        {   int memorypiece= ((memory-8)/2);
-            for(int i=0; i>=memorypiece; i++)
-            {
-
-                int sonuc=((memory-8)/2);
-                price+=250;
-            }
-
-            int bitspieces=((bits-128)/64);
-            for(int i=0;i>=bitspieces;i++)
-            {
-                price+=400;
-            }
-
-        }*/
 
     if(memory>8)
     {   int memorypiece= ((memory-8)/2);
