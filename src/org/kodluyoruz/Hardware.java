@@ -10,6 +10,43 @@ package org.kodluyoruz;
  *
  * TODO Bu 3 özellik ve bunların metotları için gereken kodları bu sınıfın içine yazın
  */
+
 public abstract class Hardware
 {
+   public String brand;
+    public Double price;
+    public int power;
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
+
+
+
+
+public abstract double calculateprice();
+
+
+
+
 }
