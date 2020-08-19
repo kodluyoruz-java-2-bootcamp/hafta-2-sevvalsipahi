@@ -29,15 +29,20 @@ public class SSD extends Hardware
  @Override
  public double calculateprice()
  {
-  if(memory>750)
+  /*if(memory>750)
   {
    int memorypiece=((memory-750)/250);
    for(int i=0; i>memorypiece;i++)
     price = price + 275;
 
   }
-
-  return price;
+*/
+if (memory>750)
+{
+int memorypiece=((memory-750)/250);
+price+=(275*memorypiece);
+ }
+ return price;
  }
 
 
