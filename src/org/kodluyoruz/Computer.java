@@ -102,14 +102,14 @@ public class Computer
         System.out.println(totalprice);
         // TODO metodu doldurun
         return totalprice;
-      //  return this.cpu.getPrice() + this.gpu.getPrice() + this.motherboard.getPrice() + this.ram.getPrice() + this.ssd.getPrice();
+
 
     }
 
     public int getTotalPower()
     {
 
-        //return this.cpu.getPower() + this.gpu.getPower() + this.motherboard.getPower() + this.ram.getPower() + this.ssd.getPower();
+
 
         int totalpower=cpu.power+gpu.power+motherboard.power+ram.power+ssd.power;
         System.out.println(totalpower);

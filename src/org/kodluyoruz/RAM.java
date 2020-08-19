@@ -37,33 +37,6 @@ public class RAM extends Hardware {
 
     @Override
     public double calculateprice() {
-       /* if(memory>16 && frequency>3600) {
-            int memorypiece = ((memory - 16) / 4);
-            for (int i = 0; i >= memorypiece; i++) {
-                price = price + 100;
-            }
-
-            int frequencypiece = ((frequency - 3600) / 400);
-            for (int i = 0; i >= frequencypiece; i++) {
-                price = price + 200;
-
-            }
-        }
-
-
-
-         if (memory > 16) {
-            int memorypiece = ((memory - 16) / 4);
-            for (int i = 0; i >memorypiece; i++) {
-                price += 100;
-            }
-        }
-        if (frequency > 3600) {
-            int frequencypiece = ((frequency - 3600) / 400);
-            for (int i = 0; i > frequencypiece; i++) {
-                price += 200;
-
-            } */
         
         if (memory>16)
         {
@@ -75,13 +48,13 @@ public class RAM extends Hardware {
             int frequencypiece=(int)((frequency-3600)/400);
             price+=(frequencypiece*200);
         }
-        
-        
-        
 
 
-        }
+
+
         return price;
+        }
+
     }
 
 
@@ -99,4 +72,4 @@ public class RAM extends Hardware {
 
 
 
-}
+
