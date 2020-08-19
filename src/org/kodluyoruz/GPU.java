@@ -41,7 +41,7 @@ private int memory;
 
 
     if(memory>8)
-    {   int memorypiece= ((memory-8)/2);
+    {   int memorypiece= (int)((memory-8)/2);
         for(int i=0; i>memorypiece; i++)
         {
 
